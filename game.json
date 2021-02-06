@@ -1,0 +1,678 @@
+{
+    "passages": [
+      {
+        "text": "You've just returned home after a long day of work, the sun is almost about to set, and you're sitting in your car with the radio on low volume.\n[[Turn off the car -> HeadToHouse]]\n[[Turn off the radio -> StillInCar]]",
+        "links": [
+          {
+            "name": "Turn off the car ",
+            "link": " HeadToHouse",
+            "pid": "2"
+          },
+          {
+            "name": "Turn off the radio ",
+            "link": " StillInCar",
+            "pid": "3"
+          }
+        ],
+        "name": "Start",
+        "pid": "1",
+        "position": {
+          "x": "957",
+          "y": "18"
+        }
+      },
+      {
+        "text": "After you turn off your car, you hear the engine slowly die down before opening the door. You start moving down your driveway and to the path towards the front door.\n\nAs you reach the door you see a small note is taped to the door, it reads, \"Come Find Me!\" with the \"i\" having a little heart instead of a dot.\n\n[[Go Inside -> HouseFront]]\n[[Circle Back -> BackYard]]",
+        "links": [
+          {
+            "name": "Go Inside ",
+            "link": " HouseFront",
+            "pid": "4"
+          },
+          {
+            "name": "Circle Back ",
+            "link": " BackYard",
+            "pid": "5"
+          }
+        ],
+        "name": " HeadToHouse",
+        "pid": "2",
+        "position": {
+          "x": "581",
+          "y": "260"
+        }
+      },
+      {
+        "text": "As the song from your childhood is cut short from ending, you can't help to breathe a sigh of relief. Everything in this small moment is finally silent. You're finally able to hear yourself think for the first time this week.\n\nMaybe it wouldn't be too bad just to rest your eyes.\n\n[[Rest -> NightTime]]\n[[No, let's get to bed -> HeadToHouse]] ",
+        "links": [
+          {
+            "name": "Rest ",
+            "link": " NightTime",
+            "pid": "6"
+          },
+          {
+            "name": "No, let's get to bed ",
+            "link": " HeadToHouse",
+            "pid": "2"
+          }
+        ],
+        "name": " StillInCar",
+        "pid": "3",
+        "position": {
+          "x": "1172",
+          "y": "187"
+        }
+      },
+      {
+        "text": "As you step inside your house, you notice it's oddly quiet. The kids are away at summer camp, so it has been just you and your wife for the past month.\n\nYou didn't forget anything, right?\n\n[[Yell \"I'm coming for you!\" -> Search]]\n[[Go to the Kitchen -> Kitchen]]\n[[Go to the Bedroom -> Bedroom]]",
+        "links": [
+          {
+            "name": "Yell \"I'm coming for you!\" ",
+            "link": " Search",
+            "pid": "7"
+          },
+          {
+            "name": "Go to the Kitchen ",
+            "link": " Kitchen",
+            "pid": "8"
+          },
+          {
+            "name": "Go to the Bedroom ",
+            "link": " Bedroom",
+            "pid": "9"
+          }
+        ],
+        "name": " HouseFront",
+        "pid": "4",
+        "position": {
+          "x": "214",
+          "y": "436"
+        }
+      },
+      {
+        "text": "As you circle back to the backyard, you notice the empty playset that no longer gets any use. Back when the kids were younger, almost everyday in the summer they would be on it. Now they're more content with going to other friend's houses.\n\n[[Head in the back door -> Kitchen]] \n[[Go on the swing -> Swingset]]",
+        "links": [
+          {
+            "name": "Head in the back door ",
+            "link": " Kitchen",
+            "pid": "8"
+          },
+          {
+            "name": "Go on the swing ",
+            "link": " Swingset",
+            "pid": "10"
+          }
+        ],
+        "name": " BackYard",
+        "pid": "5",
+        "position": {
+          "x": "477",
+          "y": "421"
+        }
+      },
+      {
+        "text": "You don't know how long you were asleep, but sun has set and the only light is your headlights reflecting off of the garage door. You shake your head softly, trying to get yourself awake as you go to turn off the car. \n\nHowever, when you take the keys out of the ignition the car doesn't turn off. It's still running. You try to put them in and take them out again, but there's no change.\n\nYou decide to take care of it in the morning, and move to open your door, only to find that no matter how you try the door won't unlock.\n\n[[Bash the window -> Window]]\n[[Check the glove compartment -> GloveCompartment]]",
+        "links": [
+          {
+            "name": "Bash the window ",
+            "link": " Window",
+            "pid": "12"
+          },
+          {
+            "name": "Check the glove compartment ",
+            "link": " GloveCompartment",
+            "pid": "13"
+          }
+        ],
+        "name": " NightTime",
+        "pid": "6",
+        "position": {
+          "x": "1265.3333333333333",
+          "y": "325.6666666666667"
+        }
+      },
+      {
+        "text": "You search high and low throughout your house, but you can't seem to find your wife anywhere. The Kitchen, the bathrooms, the basement, the attic even. However, there is one spot you haven't looked yet that would be the most obvious.\n\n[[Head to the bedroom -> Bedroom]] ",
+        "links": [
+          {
+            "name": "Head to the bedroom ",
+            "link": " Bedroom",
+            "pid": "9"
+          }
+        ],
+        "name": " Search",
+        "pid": "7",
+        "position": {
+          "x": "65",
+          "y": "619"
+        }
+      },
+      {
+        "text": "Coming into the kitchen, you see it almost in prestine shape. As if a professional cleaning crew came in to clean up the mess it was in this morning. \n\nStill no sign of her here though, but there's a note on table. \n\"Maybe we can make this dirty again.\" With a little wink at the end of it.\n\n[[You decide to keep searching. ->  Search]] ",
+        "links": [
+          {
+            "name": "You decide to keep searching. ",
+            "link": "  Search",
+            "pid": "11"
+          }
+        ],
+        "name": " Kitchen",
+        "pid": "8",
+        "position": {
+          "x": "381",
+          "y": "624"
+        }
+      },
+      {
+        "text": "Once in the bedroom, you find something very unexpected... or half unexpected?\n\nYou see your wife, passed out on top of the sheets, she must have been waiting for a while. A small chuckle escapes your lips as you come over to the side of the bed and slowly start to get her and yourself under the covers.\n\nYou sleep away the rest of the night without any worries.",
+        "name": " Bedroom",
+        "pid": "9",
+        "position": {
+          "x": "251",
+          "y": "1146"
+        }
+      },
+      {
+        "text": "As you walk over to the swingset you take a seat, old memories of the kids playing here everyday start to flood back.\n\n\"Daddy, look how high I can jump off the swing!\"\n\n\"Daddy, look how fast I can go!\"\n\n\"I bet I can beat you in a race!\"\n\nYou breathe out a heavy sigh, even though your eldest will be going to college in less than a year, you still have all those memories and more to make.\n\n[[Reminisce More -> StayOnSwings]]\n[[Go Back To Looking -> BackDoor]]",
+        "links": [
+          {
+            "name": "Reminisce More ",
+            "link": " StayOnSwings",
+            "pid": "17"
+          },
+          {
+            "name": "Go Back To Looking ",
+            "link": " BackDoor",
+            "pid": "18"
+          }
+        ],
+        "name": " Swingset",
+        "pid": "10",
+        "position": {
+          "x": "563",
+          "y": "634"
+        }
+      },
+      {
+        "text": "You search high and low throughout your house, but you can't seem to find your wife anywhere. The Kitchen, the bathrooms, the basement, the attic even. However, there is one spot you haven't looked yet that would be the most obvious.\n\n[[Head to the bedroom -> Bedroom]] ",
+        "links": [
+          {
+            "name": "Head to the bedroom ",
+            "link": " Bedroom",
+            "pid": "9"
+          }
+        ],
+        "name": "  Search",
+        "pid": "11",
+        "position": {
+          "x": "66",
+          "y": "812"
+        }
+      },
+      {
+        "text": "Try as you might, even with all of your strength the window doesn't seem to get so much as a crack in it. After a few moments of silence, you see a hand reach out to the window and leaving a small crack behind as it slowly sinks back into the dead of night.\n\n[[Slink into your seat -> MonsterRoam]]\n[[Try to break the crack -> Dead]]",
+        "links": [
+          {
+            "name": "Slink into your seat ",
+            "link": " MonsterRoam",
+            "pid": "14"
+          },
+          {
+            "name": "Try to break the crack ",
+            "link": " Dead",
+            "pid": "15"
+          }
+        ],
+        "name": " Window",
+        "pid": "12",
+        "position": {
+          "x": "1438",
+          "y": "402"
+        }
+      },
+      {
+        "text": "Reaching into the glove compartment, you try looking around to see if there's anything you could use to force the car door open. Upon finding nothing, you close the compartment and start to look up, only to come nearly face to face with what almost looks vaguely human. Staring at you from the passenger side window can only be described as monstrous, as if someone's whole body was pumped too full of organs, bones, and extra limbs.\n\n[[Hide under the wheel -> MonsterRoam]] \n[[Wait -> Dead2]]",
+        "links": [
+          {
+            "name": "Hide under the wheel ",
+            "link": " MonsterRoam",
+            "pid": "14"
+          },
+          {
+            "name": "Wait ",
+            "link": " Dead2",
+            "pid": "16"
+          }
+        ],
+        "name": " GloveCompartment",
+        "pid": "13",
+        "position": {
+          "x": "1667",
+          "y": "372"
+        }
+      },
+      {
+        "text": "As you get as low into your seat and car as possible, you hear the sounds of large foot steps circling around the car. They're enough to shake the frame ever so slightly, and you can feel your heart beat rising. You're cramped undernearth the wheel, but it's the only spot you can hide from whatever is out there.\n\n[[Keep waiting]]\n[[Take a peak]]",
+        "links": [
+          {
+            "name": "Keep waiting",
+            "link": "Keep waiting",
+            "pid": "28"
+          },
+          {
+            "name": "Take a peak",
+            "link": "Take a peak",
+            "pid": "29"
+          }
+        ],
+        "name": " MonsterRoam",
+        "pid": "14",
+        "position": {
+          "x": "1384",
+          "y": "556"
+        }
+      },
+      {
+        "text": "You determine your best chance is to break the crack left by the hand and then make a sprint for your door. You rear back your body as much as you can in your seat, and with all your might you lunge forwards towards the window in hopes to break it.\n\nOut of the corner of your eyes you can see something else move, as the window shatters before you touch it. You can feel the immense pain of your spine cracking for but a brief moment before everything goes numb, and you lose consciousness.\n\n[Bad End]",
+        "name": " Dead",
+        "pid": "15",
+        "position": {
+          "x": "1554",
+          "y": "570"
+        }
+      },
+      {
+        "text": "As you wait there, striken with fear, the face slowly starts to mend and contort. Moving in ways that you didn't think were  possible for any animal to do. The face keeps changing shape constantly until it finally settles, and you notice that it's almost like looking in a mirror. \n\nAs you finally realize it, you can feel yourself no longer able to take in air, you try to grasp for breath but the air just won't come in, and the face staring into you reveals a devilish smile crossing its lips as you fall limp.\n\n[Bad End]",
+        "name": " Dead2",
+        "pid": "16",
+        "position": {
+          "x": "1684",
+          "y": "567"
+        }
+      },
+      {
+        "text": "You see your wife standing in the back door, a smile on her beautiful face. She slowly starts to walk out in her favorite sweater, sitting on the swing next to you.\n\nYou two begin to talk about what the next year is going to like with only one of your kids at home, and eventually get on the subject of how it's going to be lonely once they're both gone.\n\n[[Reassure -> GoodEnding]]\n[[Stay Silent -> Ramble]]",
+        "links": [
+          {
+            "name": "Reassure ",
+            "link": " GoodEnding",
+            "pid": "19"
+          },
+          {
+            "name": "Stay Silent ",
+            "link": " Ramble",
+            "pid": "20"
+          }
+        ],
+        "name": " StayOnSwings",
+        "pid": "17",
+        "position": {
+          "x": "461",
+          "y": "775"
+        }
+      },
+      {
+        "text": "You get off the swing set, coming to the back door and continuing your original mission of this hide and seek game your wife wanted to play. You find yourself standing in the kitchen, everything seems to be immaculate as if a professional cleaning crew came in and helped to get everything just right. \n\nYou thought not coming through the back door would let you get the element of surprise, but it becomes clear as you start searching that she's not anywhere on the first floor.\n\n[[Go upstairs -> Upstairs]]\n[[Go downstairs -> Downstairs]]",
+        "links": [
+          {
+            "name": "Go upstairs ",
+            "link": " Upstairs",
+            "pid": "21"
+          },
+          {
+            "name": "Go downstairs ",
+            "link": " Downstairs",
+            "pid": "22"
+          }
+        ],
+        "name": " BackDoor",
+        "pid": "18",
+        "position": {
+          "x": "671",
+          "y": "783"
+        }
+      },
+      {
+        "text": "You get off of your swing, coming down to your knees so that you can wrap your arms around your wife. You hug her tightly, her arms coming around you as you can hear her slowly start to cry into your shoulder. \n\nYou hold her tight, waiting until everything is out before trying to reassure her that everything is going to be alright, and even if the kids will be gone that it's not like they'll never come back to visit.\n\nFor right now though, take it one day at a time.\n\nEnd.",
+        "name": " GoodEnding",
+        "pid": "19",
+        "position": {
+          "x": "347",
+          "y": "960"
+        }
+      },
+      {
+        "text": "You stay in your swing, letting your wife ramble on about all the worries she has about your eldest going off to college, what it'll be like in a few years when the younger one goes too, and how she's so scared of what the future is going to hold for them.\n\n[[Console -> GoodEnding]]",
+        "links": [
+          {
+            "name": "Console ",
+            "link": " GoodEnding",
+            "pid": "19"
+          }
+        ],
+        "name": " Ramble",
+        "pid": "20",
+        "position": {
+          "x": "503",
+          "y": "926"
+        }
+      },
+      {
+        "text": "Where would you like to search first?\n\n[[ Bedroom]] \n[[Bathroom -> Bathroom]]\n[[Office -> Office]]",
+        "links": [
+          {
+            "name": " Bedroom",
+            "link": " Bedroom",
+            "pid": "9"
+          },
+          {
+            "name": "Bathroom ",
+            "link": " Bathroom",
+            "pid": "23"
+          },
+          {
+            "name": "Office ",
+            "link": " Office",
+            "pid": "24"
+          }
+        ],
+        "name": " Upstairs",
+        "pid": "21",
+        "position": {
+          "x": "642",
+          "y": "969"
+        }
+      },
+      {
+        "text": "Where to check next?\n\n[[Closet]]\n[[Laundry Room]]\n[[Downstairs Bathroom]]\n[[ Upstairs]] ",
+        "links": [
+          {
+            "name": "Closet",
+            "link": "Closet",
+            "pid": "25"
+          },
+          {
+            "name": "Laundry Room",
+            "link": "Laundry Room",
+            "pid": "26"
+          },
+          {
+            "name": "Downstairs Bathroom",
+            "link": "Downstairs Bathroom",
+            "pid": "27"
+          },
+          {
+            "name": " Upstairs",
+            "link": " Upstairs",
+            "pid": "21"
+          }
+        ],
+        "name": " Downstairs",
+        "pid": "22",
+        "position": {
+          "x": "781",
+          "y": "973"
+        }
+      },
+      {
+        "text": "You come into the bathroom, the same thing with the kitchen as it looks immaculate in here as well. Pulling back the shower curtain you expect to find your wife hiding there, but you find just the empty tub.\n\n[[Back -> Upstairs]]",
+        "links": [
+          {
+            "name": "Back ",
+            "link": " Upstairs",
+            "pid": "21"
+          }
+        ],
+        "name": " Bathroom",
+        "pid": "23",
+        "position": {
+          "x": "514",
+          "y": "1137"
+        }
+      },
+      {
+        "text": "You come into your home office, finding it close to how you left it last night. It seems the trash can by your desk has been taken out, and the small couch has been vaccumed. You look in any places that someone could reasonably hide. Under the desk, in the closet, and even behind your book shelf. Nothing.\n\n[[Back -> Upstairs]]",
+        "links": [
+          {
+            "name": "Back ",
+            "link": " Upstairs",
+            "pid": "21"
+          }
+        ],
+        "name": " Office",
+        "pid": "24",
+        "position": {
+          "x": "626",
+          "y": "1149"
+        }
+      },
+      {
+        "text": "You open the small closet, lots of cleaning supplies in it but not big enough for a person to hide in properly.\n\n[[ Downstairs]] ",
+        "links": [
+          {
+            "name": " Downstairs",
+            "link": " Downstairs",
+            "pid": "22"
+          }
+        ],
+        "name": "Closet",
+        "pid": "25",
+        "position": {
+          "x": "728",
+          "y": "1318"
+        }
+      },
+      {
+        "text": "You come inside, looking into the laundry room and even looking into the washer and dryer to see if she contorted herself into one of them, but in the end you find nothing.\n\n[[ Downstairs]] ",
+        "links": [
+          {
+            "name": " Downstairs",
+            "link": " Downstairs",
+            "pid": "22"
+          }
+        ],
+        "name": "Laundry Room",
+        "pid": "26",
+        "position": {
+          "x": "836",
+          "y": "1314"
+        }
+      },
+      {
+        "text": "You check the downstairs bathroom, it's just as immaculate as the kitchen upstairs was, but with how small it is you're easily able to see that your wife isn't in here either.\n\n[[ Downstairs]] ",
+        "links": [
+          {
+            "name": " Downstairs",
+            "link": " Downstairs",
+            "pid": "22"
+          }
+        ],
+        "name": "Downstairs Bathroom",
+        "pid": "27",
+        "position": {
+          "x": "951",
+          "y": "1326"
+        }
+      },
+      {
+        "text": "You wait and wait, hearing those same steps echo throughout the night as it seems to circle around your car endlessly. It takes many hours before they slowly begin to die down, and trail off in some other direction.\n\nYou don't know what just happened, but you still don't feel safe.\n\nEnd?",
+        "name": "Keep waiting",
+        "pid": "28",
+        "position": {
+          "x": "1476",
+          "y": "687"
+        }
+      },
+      {
+        "text": "You slowly come up, trying to see if you can see anything out of your window into the vast darkness of the night, but from your angle it would be hard to see anything below the bottom of the window.\n\n[[Sit Back Down]]\n[[Keep Looking]]",
+        "links": [
+          {
+            "name": "Sit Back Down",
+            "link": "Sit Back Down",
+            "pid": "30"
+          },
+          {
+            "name": "Keep Looking",
+            "link": "Keep Looking",
+            "pid": "31"
+          }
+        ],
+        "name": "Take a peak",
+        "pid": "29",
+        "position": {
+          "x": "1244",
+          "y": "698"
+        }
+      },
+      {
+        "text": "As you sit back down you can still hear the sounds of something thumping around the car, and you can hear it slowly come around to the trunk. You then feel as the car slowly starts being lifted from the back, but from your angle you can't see anything.\n\n[[Get out while it's distracted]]\n[[Stay Put]]",
+        "links": [
+          {
+            "name": "Get out while it's distracted",
+            "link": "Get out while it's distracted",
+            "pid": "32"
+          },
+          {
+            "name": "Stay Put",
+            "link": "Stay Put",
+            "pid": "33"
+          }
+        ],
+        "name": "Sit Back Down",
+        "pid": "30",
+        "position": {
+          "x": "1148",
+          "y": "805"
+        }
+      },
+      {
+        "text": "As you come up even more, you eventually find yourself face to face with what looked to be a human face. However, where eyes usually are seems to just be two black balls instead. No iris, no pupil, just blackness.\n\nConsider your next move carefully.\n\n[[Hide]]\n[[Keep Looking At The Face]]",
+        "links": [
+          {
+            "name": "Hide",
+            "link": "Hide",
+            "pid": "36"
+          },
+          {
+            "name": "Keep Looking At The Face",
+            "link": "Keep Looking At The Face",
+            "pid": "37"
+          }
+        ],
+        "name": "Keep Looking",
+        "pid": "31",
+        "position": {
+          "x": "1333",
+          "y": "823"
+        }
+      },
+      {
+        "text": "You do your best to come forwards, opening the front door as whatever is out there is lifting the back. You stumble out of the car and to your feet, but you hear the thud of the car crashing back down onto the driveway.\n\nYou can't even make it to the door before you feel a sharp pain in your chest, and look down only to find an entire human arm coming through your chest cavity.\n\nAs it pulls out you're left there on the ground, bleeding out... you slowly succumb to your wounds.\n\nEnd",
+        "name": "Get out while it's distracted",
+        "pid": "32",
+        "position": {
+          "x": "1073",
+          "y": "940"
+        }
+      },
+      {
+        "text": "You stay put while the car is being lifted from the back, and in your brief looks you catch a glimpse of what seemed to be a human face lifting up the car. However, there was something off, it didn't seem to have any pupils in its eyes. \n\nAfter a few minutes of trying to flush you out, whatever it was eventually puts the car back down. It starts moving off as you can hear it stomping off into the night away from you. \n\n[[Stay Put A Little Longer]]\n[[Try To Get Out]]",
+        "links": [
+          {
+            "name": "Stay Put A Little Longer",
+            "link": "Stay Put A Little Longer",
+            "pid": "34"
+          },
+          {
+            "name": "Try To Get Out",
+            "link": "Try To Get Out",
+            "pid": "35"
+          }
+        ],
+        "name": "Stay Put",
+        "pid": "33",
+        "position": {
+          "x": "1223",
+          "y": "947"
+        }
+      },
+      {
+        "text": "You stay put a little longer, and slowly feel yourself drifting off to sleep again against your wishes.\n\nWhen you awake in the morning, you find yourself back in your seat and your wife looking at you from the driver side window confused as to why you slept outside in the car.\n\nEnd.",
+        "name": "Stay Put A Little Longer",
+        "pid": "34",
+        "position": {
+          "x": "1148",
+          "y": "1097"
+        }
+      },
+      {
+        "text": "You slowly reach up to pull open the door, but find that it's locked somehow. Even though the lock shows that it's open, you still can't seem to pry the door open. You resolve to stay put for now. \n\n[[Stay Put A Little Longer]] ",
+        "links": [
+          {
+            "name": "Stay Put A Little Longer",
+            "link": "Stay Put A Little Longer",
+            "pid": "34"
+          }
+        ],
+        "name": "Try To Get Out",
+        "pid": "35",
+        "position": {
+          "x": "1298",
+          "y": "1097"
+        }
+      },
+      {
+        "text": "You decide to hide again under the seat, but the second you move the face seems to disappear once more. You start feeling a pain in your chest cavity, as if your lungs are being crushed from inside of your rib cage. You soon lose the ability to breathe, and can no longer stay awake.\n\nEnd.",
+        "name": "Hide",
+        "pid": "36",
+        "position": {
+          "x": "1343",
+          "y": "973"
+        }
+      },
+      {
+        "text": "You hold your ground, continuing to look at the face, it moves closer and seems to just phase through the window without any effort. It keeps moving closer until it's right up against your face.\n\nChoose wisely.\n\n[[Stay Still]]\n[[Try To Fight]]",
+        "links": [
+          {
+            "name": "Stay Still",
+            "link": "Stay Still",
+            "pid": "38"
+          },
+          {
+            "name": "Try To Fight",
+            "link": "Try To Fight",
+            "pid": "39"
+          }
+        ],
+        "name": "Keep Looking At The Face",
+        "pid": "37",
+        "position": {
+          "x": "1463",
+          "y": "973"
+        }
+      },
+      {
+        "text": "You stay still, deciding that if it has gotten you this far it may also let you live here. You keep \"eye\" contact with it before it slowly starts to phase its way out of the window and begins to make its way back off into the night. You don't know what exactly just happened, but you're still unsure whether you should move or not.\n\nEnd?",
+        "name": "Stay Still",
+        "pid": "38",
+        "position": {
+          "x": "1418",
+          "y": "1123"
+        }
+      },
+      {
+        "text": "Before you can even move a muscle, you feel your chest cavity becoming tight, and suddenly you can hear the sound and feel the pain of all of your ribs breaking at the same time. The bones shatter into fragments that pierce your lungs and make it near impossible to breathe.\n\nIt's only a few more minutes until you're dead.\n\nEnd.",
+        "name": "Try To Fight",
+        "pid": "39",
+        "position": {
+          "x": "1538",
+          "y": "1123"
+        }
+      }
+    ],
+    "name": "01-Interactive-Fiction",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.11",
+    "ifid": "975D5422-EC26-4493-AE09-7C82026B6F59"
+  }
